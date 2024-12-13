@@ -27,11 +27,9 @@ set file=rfriends3_latest_full_x64.zip
 curl %dir%%file% --output %file%
 rem unzip %file%"
 tar -xf %file%"
-xcopy /Y /E rfriends3 ..\rfriends3
-rd /s /q rfriends3
 del %file% /Q
 
-cd ..\rfriends3
+cd rfriends3
 cscript rf3server.vbs
 copy /Y rf3server.lnk "%USERPROFILE%\DESKTOP\"
 
