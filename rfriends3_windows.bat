@@ -20,8 +20,8 @@ goto stp
 :ex1
 rem set dir=http://rfbuddy.s296.xrea.com/temp/
 rem set dir=http://rfriends.s1009.xrea.com/files3/
-rem set dir=http://ceres.s501.xrea.com/files3/
-set dir=https://github.com/rfriends/rfriends3/releases/latest/download
+set dir=http://ceres.s501.xrea.com/files3/
+rem set dir=https://github.com/rfriends/rfriends3/releases/latest/download
 set file=rfriends3_latest_full_x64.zip
 
 curl %dir%%file% --output %file%
