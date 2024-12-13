@@ -25,7 +25,8 @@ rem set dir=https://github.com/rfriends/rfriends3/releases/latest/download
 set file=rfriends3_latest_full_x64.zip
 
 curl %dir%%file% --output %file%
-unzip %file%"
+rem unzip %file%"
+tar -xf %file%"
 xcopy /Y /E rfriends3 ..\rfriends3
 rd /s /q rfriends3
 del %file% /Q
