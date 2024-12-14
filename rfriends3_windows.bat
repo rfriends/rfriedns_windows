@@ -22,9 +22,9 @@ rem 開始
 rem
 echo.
 
-set dir1=http://ceres.s501.xrea.com/files3/
-set dir2=http://rfriends.s1009.xrea.com/files3/
-set dir3=http://rfbuddy.s296.xrea.com/temp/
+set dir1=http://rfbuddy.s296.xrea.com/atorage/
+set dir2=http://ceres.s501.xrea.com/storage/
+set dir3=http://rfriends.s1009.xrea.com/storage/
 set file=rfriends3_latest_full_x64.zip
 
 del %file% /Q > nul 2>&1
