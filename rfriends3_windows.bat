@@ -36,6 +36,9 @@ for /f %%i in ('curl -k -s -I -o nul -w "%%{http_code}" %url%') do set http_code
 if %http_code% equ 200 goto ok
 echo not exist (%http_code%) %url%
 
+rem since dir1 only
+goto skp
+
 set url=%dir2%%file%
 for /f %%i in ('curl -k -s -I -o nul -w "%%{http_code}" %url%') do set http_code=%%i
 if %http_code% equ 200 goto ok
@@ -46,6 +49,7 @@ for /f %%i in ('curl -k -s -I -o nul -w "%%{http_code}" %url%') do set http_code
 if %http_code% equ 200 goto ok
 echo not exist (%http_code%) %url%
 
+:skp
 echo ファイルのダウンロードに失敗しました。
 goto stp
 
