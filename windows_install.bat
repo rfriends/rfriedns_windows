@@ -4,7 +4,7 @@ rem -----------------------------------------
 rem rfriends3 簡易インストーラー
 rem
 rem 2023/06/19 by mapi
-rem 2024/12/14 by mapi
+rem 2025/01/10 by mapi
 rem -----------------------------------------
 echo rfriends3インストーラー for windows Ver. 1.40
 echo.
