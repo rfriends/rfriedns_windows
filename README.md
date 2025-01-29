@@ -1,4 +1,5 @@
 windows用rfriends3のインストールスクリプトです。  
   
-インストール方法
-https://github.com/rfriends/rfriends_windows/wiki  
+インストール方法は以下を参照してください。  
+https://github.com/rfriends/rfriends/blob/gh-pages/distro/windows.md
+  
